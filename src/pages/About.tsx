@@ -1,36 +1,41 @@
-
 import { motion } from "framer-motion";
 
 const teamMembers = [
   {
-    role: "Creative Director",
-    name: "Alex Morgan",
-    description: "Leading the creative vision and strategy",
+    role: "Founder",
+    name: "Yash Thapliyal", 
+    description: "CU Boulder Senior - Computer Science",
+    image: "/Yash-Headshot.jpg"
   },
   {
     role: "Senior Designer",
-    name: "Sam Chen",
-    description: "Crafting visual experiences",
+    name: "Gabo Page",
+    description: "CU Boulder Junior - Media Production",
+    image: ""
   },
   {
-    role: "Art Director",
-    name: "Jordan Lee",
-    description: "Guiding artistic direction",
+    role: "Another Role",
+    name: "-----", 
+    description: "-------------",
+    image: ""
   },
   {
-    role: "UI/UX Designer",
-    name: "Taylor Swift",
-    description: "Creating seamless user experiences",
+    role: "Another Role",
+    name: "-----", 
+    description: "-------------",
+    image: ""
   },
   {
-    role: "Motion Designer",
-    name: "Chris Park",
-    description: "Bringing designs to life",
+    role: "Another Role",
+    name: "-----", 
+    description: "-------------",
+    image: ""
   },
   {
-    role: "Brand Strategist",
-    name: "Morgan Smith",
-    description: "Developing brand identities",
+    role: "Another Role",
+    name: "-----", 
+    description: "-------------",
+    image: ""
   },
 ];
 
@@ -63,7 +68,11 @@ const About = () => {
               viewport={{ once: true }}
               className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow"
             >
-              <div className="w-20 h-20 bg-gray-100 rounded-full mx-auto mb-4" />
+              <img 
+                src={member.image || "/placeholder-headshot.png"}
+                alt={`${member.name} - ${member.role}`}
+                className="w-20 h-20 object-cover rounded-full mx-auto mb-4"
+              />
               <h3 className="font-display text-lg font-semibold text-center mb-2">
                 {member.role}
               </h3>

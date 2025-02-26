@@ -14,12 +14,14 @@ const Index = () => {
             className="max-w-4xl mx-auto text-center"
           >
             <h1 className="font-display text-6xl sm:text-7xl font-bold leading-tight tracking-tight text-primary mb-6">
-              Where Design
+              Student Run
               <br />
-              Meets Excellence
+              Student Designed
+              <br />
+              Student Excellence
             </h1>
             <p className="text-gray-600 text-lg sm:text-xl font-body max-w-2xl mx-auto mb-8">
-              A collective of innovative designers pushing the boundaries of visual
+              A collective of student designers pushing the boundaries of visual
               communication through thoughtful and impactful design solutions.
             </p>
             <motion.div
