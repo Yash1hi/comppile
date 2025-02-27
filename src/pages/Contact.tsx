@@ -88,14 +88,14 @@ const Contact = () => {
               </h2>
               <div className="space-y-4">
                 <a
-                  href="tel:+1234567890"
+                  href="tel:+4154845930"
                   className="flex items-center space-x-4 text-gray-600 hover:text-primary transition-colors"
                 >
                   <Phone className="w-5 h-5" />
                   <span>(123) 456-7890</span>
                 </a>
                 <a
-                  href="mailto:hello@comppile.com"
+                  href="mailto:team@comppile.studio"
                   className="flex items-center space-x-4 text-gray-600 hover:text-primary transition-colors"
                 >
                   <Mail className="w-5 h-5" />

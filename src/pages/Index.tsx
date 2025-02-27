@@ -21,8 +21,7 @@ const Index = () => {
               Student Excellence
             </h1>
             <p className="text-gray-600 text-lg sm:text-xl font-body max-w-2xl mx-auto mb-8">
-              A collective of student designers pushing the boundaries of visual
-              communication through thoughtful and impactful design solutions.
+            A collective of students collaborating on creative projects, developing skills, and connecting to clients.
             </p>
             <motion.div
               initial={{ opacity: 0 }}
@@ -30,10 +29,10 @@ const Index = () => {
               transition={{ delay: 0.5 }}
             >
               <a
-                href="/designs"
+                href="/about"
                 className="inline-flex items-center px-8 py-3 bg-primary text-white font-medium rounded-full hover:bg-primary/90 transition-colors"
               >
-                View Our Work
+                Learn More
               </a>
             </motion.div>
           </motion.div>
